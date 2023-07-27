@@ -11,15 +11,18 @@ html{
 body{
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .left-side{
-  width: 4rem;
+  width: 14rem;
+  height: 100vh;
   background-color:white;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   list-style: none;
+  overflow-y: scroll;
 }
 
 .icon{
@@ -34,7 +37,6 @@ body{
    width: 50px;
    height: 50px;
    border-radius: 50%;
-   margin-top: 12px;
    border: 2px solid white;
  }
 
