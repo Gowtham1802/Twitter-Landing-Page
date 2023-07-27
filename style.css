@@ -14,8 +14,24 @@ body{
   overflow-x: hidden;
 }
 
+span{
+  margin-left: 5px;
+}
+
+.id{
+  display: flex;
+}
+
+.name{
+  color: black;
+}
+
+.user-name{
+  color: gray;
+}
+
 .left-side{
-  width: 14rem;
+  width: 15rem;
   height: 100vh;
   background-color:white;
   display: flex;
@@ -26,8 +42,8 @@ body{
 }
 
 .icon{
-  margin-left: 7rem;
-  font-size: 25px;
+  margin-left: 50px;
+  font-size: 20px;
   color: black;
   border-radius: 50%;
   border: 2px solid white;
@@ -42,11 +58,29 @@ body{
 
  .menu-item {
    padding: 0px 20px;
-   margin-left: 82px;
-   margin-bottom: 10px;
+   margin-left: -33px;
+   margin-top: 30px;
  }
 
- .menu-item {
-   padding: 0px 20px;
-   margin-bottom: 0px;
+a{
+  text-decoration: none;
+  display: flex;
+}
+
+a:hover{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: rgb(213, 213, 213);
+}
+
+.fa-twitter{
+  width: 100px;
+  font-size: 30px;
+}
+ .fas{
+  margin-right: 10px;
+ }
+
+ .fa-user{
+  margin-right: 10px;
  }
