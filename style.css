@@ -10,7 +10,7 @@ html{
 
 body{
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -18,8 +18,42 @@ span{
   margin-left: 5px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .id{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.3rem;
+  margin-top: 3rem;
+}
+
+/* .id:hover{
+  background-color: rgb(213, 213, 213);
+} */
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+
+.btn-tweet{
+  color: white;
+  width: 13rem;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding: 10px 70px;
+  background-color: rgb(29, 155, 240);
+  border-radius: 40px;
+}
+
+.btn-tweet:hover{
+  background-color: rgb(26, 140, 216);
 }
 
 .name{
@@ -31,18 +65,19 @@ span{
 }
 
 .left-side{
-  width: 15rem;
+  width: 17rem;
   height: 100vh;
   background-color:white;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 0rem;
   list-style: none;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .icon{
-  margin-left: 50px;
+  margin-left: 40px;
   font-size: 20px;
   color: black;
   border-radius: 50%;
@@ -62,13 +97,13 @@ span{
    margin-top: 30px;
  }
 
-a{
+.icon{
+  padding: 10px 20px 10px 10px;
   text-decoration: none;
   display: flex;
 }
 
-a:hover{
-  padding: 10px;
+.icon:hover{
   border-radius: 30px;
   background-color: rgb(213, 213, 213);
 }
